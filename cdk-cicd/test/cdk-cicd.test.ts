@@ -1,4 +1,4 @@
-import { handler } from "../services/hello";
+import { handler } from "../lambda/hello";
 
 describe("Hello describe test suite", () => {
   test("handler should return 200", async () => {
